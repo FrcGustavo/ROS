@@ -36,3 +36,5 @@ ros2 run demo_nodes_cpp talker
 
 source /opt/ros/jazzy/setup.bash
 ros2 run demo_nodes_py listener
+
+echo "deb [arch=amd64 signed-by=/usr/share/keyrings/ros-archive-keyring.gpg] http://packages.ros.org/ros2/ubuntu noble main" | sudo tee /etc/apt/sources.list.d/ros2.list
